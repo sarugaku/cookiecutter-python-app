@@ -1,0 +1,6 @@
+[dev-packages]
+invoke = '*'
+pytest = '*'
+
+[scripts]
+{{ cookiecutter.package_name }} = 'python -m {{ cookiecutter.package_name }}'
